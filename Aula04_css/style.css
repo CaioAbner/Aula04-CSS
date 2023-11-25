@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #303030;
+}
+
+/* Header start */
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    width: 100%;
+    background: #1c1c1c;
+}
+
+#logo {
+    height: 2rem;
+    width: 2rem;
+    background: white;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+
+#name {
+    font-family: "Kanit";
+    font-size: 1.5rem;
+    margin-left: 9rem;
+    color: white;
+}
+
+#nav-bar {
+    display: flex;
+    margin-right: 1.5rem;
+    gap: 1rem;
+}
+
+#nav-bar .link {
+    font-family: "Poppins";
+    text-decoration: none;
+    color: white;
+}
+
+/* Aside start */
+
+#sct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.3rem;
+    margin-left: 1.5rem;
+
+}
+
+/* .card {
+    height: 45rem;
+    width: 20rem;
+    background: white;
+} */
+
+/* Article start */
+
+#article-img {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    height: 45rem;
+    width: 90rem;
+    gap: 3rem;
+}
+
+.card1 {
+    height: 45rem;
+    width: 20rem;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.card1:hover {
+    transform: scale(0.9);
+}
+
+.card2 {
+    height: 45rem;
+    width: 20rem;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.card2:hover {
+    transform: scale(0.9);
+}
+
+.card3 {
+    height: 45rem;
+    width: 20rem;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.card3:hover {
+    transform: scale(0.9);
+}
+
+.card4 {
+    height: 45rem;
+    width: 20rem;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.card4:hover {
+    transform: scale(0.9);
+}
+
+.card5 {
+    height: 45rem;
+    width: 20rem;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.card5:hover {
+    transform: scale(0.9);
+}
+
+img {
+    height: 45rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 0.9rem;
+}
+
+/* Aside 2 start */
+
+#info {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    background: transparent;
+    height: 45rem;
+}
+
+#shows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.9rem;
+}
+
+.show1 {
+    margin-left: 4.5rem;
+    height: 10rem;
+    width: 10rem;
+    background: white;
+    border-radius: 0.9rem;
+}
+
+#show1 {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 0.9rem;
+}
+
+.show2 {
+    margin-left: 4.5rem;
+    height: 10rem;
+    width: 10rem;
+    background: white;
+    border-radius: 0.9rem;
+}
+
+#show2 {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 0.9rem;
+}
+
+.show3 {
+    margin-left: 4.5rem;
+    height: 10rem;
+    width: 10rem;
+    background: white;
+    border-radius: 0.9rem;
+}
+
+#show3 {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 0.9rem;
+}
+
+.show4 {
+    margin-left: 4.5rem;
+    height: 10rem;
+    width: 10rem;
+    background: white;
+    border-radius: 0.9rem;
+}
+
+#show4 {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 0.9rem;
+}
+
+/* Detalhes show start */
+
+#swdt1 {
+    display: flex;
+    align-items: center;
+    background: #1c1c1c;
+    border-radius: 0.9rem;
+    opacity: 0.6;
+    height: 10rem;
+    width: 0rem;
+}
+
+#swdt1 {
+    transition: 0.6s ease-in-out;
+}
+
+#swdt1:hover {
+    height: 10rem;
+    width: 116.5rem;
+    opacity: 1;
+}
+
+#swdt2 {
+    display: flex;
+    align-items: center;
+    background: #1c1c1c;
+    border-radius: 0.9rem;
+    opacity: 0.6;
+    height: 10rem;
+    width: 0rem;
+}
+
+#swdt2 {
+    transition: 0.6s ease-in-out;
+}
+
+#swdt2:hover {
+    height: 10rem;
+    width: 116.5rem;
+    opacity: 1;
+}
+
+#swdt3 {
+    display: flex;
+    align-items: center;
+    background: #1c1c1c;
+    border-radius: 0.9rem;
+    opacity: 0.6;
+    height: 10rem;
+    width: 0rem;
+}
+
+#swdt3 {
+    transition: 0.6s ease-in-out;
+}
+
+#swdt3:hover {
+    height: 10rem;
+    width: 116.5rem;
+    opacity: 1;
+}
+
+#swdt4 {
+    display: flex;
+    align-items: center;
+    background: #1c1c1c;
+    border-radius: 0.9rem;
+    opacity: 0.6;
+    height: 10rem;
+    width: 0rem;
+}
+
+#swdt4 {
+    transition: 0.6s ease-in-out;
+}
+
+#swdt4:hover {
+    height: 10rem;
+    width: 116.5rem;
+    opacity: 1;
+}
+
+/* Line start */
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.title {
+    background: white;
+    text-align: center;
+    width: 60rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    border-radius: 1rem;
+}
